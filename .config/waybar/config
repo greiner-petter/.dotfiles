@@ -25,7 +25,7 @@
             "escape": true
         },
         "clock": {
-            "format": "{:%I:%M:%S %p} ",
+            "format": "{:%I:%M:%S %p}",
             "interval": 1,   
             "tooltip-format": "<tt>{calendar}</tt>",
             "calendar": {
@@ -39,7 +39,7 @@
             }
         },
         "clock#date": {
-          "format": "󰥔 {:%H:%M  %e %b}",
+          "format": "󰥔 {:%H:%M  %e %b}",
           "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
           "today-format": "<b>{}</b>"
         },
@@ -49,20 +49,18 @@
             "format-disconnected": "",
             "tooltip-format-disconnected": "Error",
             "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-            "tooltip-format-ethernet": "{ifname} 🖧 ",
-            "on-click-right": "nm-connection-editor"
+            "tooltip-format-ethernet": "{essid} ({ifname}) 🖧",
+            "on-click": "nm-connection-editor"
         },
         "bluetooth": {
             "format-on": "󰂯",
             "format-off": "BT-off",
             "format-disabled": "󰂲",
-            "format-connected-battery": "{device_battery_percentage}% 󰂯",
-            "format-alt": "{device_alias} 󰂯",
             "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
             "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
             "tooltip-format-enumerate-connected": "{device_alias}\n{device_address}",
             "tooltip-format-enumerate-connected-battery": "{device_alias}\n{device_address}\n{device_battery_percentage}%",
-            "on-click-right": "blueman-manager",
+            "on-click": "blueman-manager"
         }, 
         "battery": {
             "interval":30,
@@ -82,21 +80,21 @@
             "󰂀",
             "󰂂",
             "󰁹"
-            ],
+            ]
         },
         "custom/power": {
-          "format": "󰐥 ",
+          "format": "󰐥",
           "tooltip": false,
           "on-click": "wlogout -b 2"
         },
         "memory": {
           "interval": 30,
-          "format": " {used:0.2f}GiB <span color=\"darkgray\">| {percentage}%</span>",
+          "format": " {used:0.2f}GiB | {percentage}%",
           "on-click": "alacritty -e btop"
         },
         "cpu": {
           "interval": 2,
-          "format": " {max_frequency}GHz <span color=\"darkgray\">| {usage}%</span>",
+          "format": " {max_frequency}GHz | {usage}%",
           "on-click": "alacritty -e btop"
         },
         "custom/pacman": {
@@ -106,7 +104,7 @@
             "exec-if": "exit 0",
             "on-click": "alacritty -e sh -c 'yay -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
             "signal": 8,
-            "tooltip": false,
+            "tooltip": false
         },
         "custom/expand": {
             "format": "",
@@ -123,7 +121,7 @@
                 "transition-to-left": true,
                 "click-to-reveal": true
             },
-            "modules": ["custom/expand", "custom/colorpicker","tray"],
+            "modules": ["custom/expand", "custom/colorpicker","tray"]
         },
         "custom/colorpicker": {
             "format": "{}",
@@ -135,33 +133,29 @@
         },
         "temperature": {
             "critical-threshold": 80,
-            "format": "",
+            "format": ""
         },
         "wireplumber": {
           "on-click": "pavucontrol",
           "on-click-right": "amixer sset Master toggle 1>/dev/null",
-          //on-click: "${wpctl} set-mute @DEFAULT_AUDIO_SINK@ toggle";
-          //on-scroll-down: "${wpctl} set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 0.04+";
-          //on-scroll-up: "${wpctl} set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 0.04-";
-          "format": "{icon}<span color=\"darkgray\">{volume}%</span>",
-          "format-muted": " <span color=\"darkgray\">0%</span>",
+          "tooltip-format": "{node_name} | {volume}%",
+          "format": "{icon}",
+          "format-muted": "",
           "format-source": "",
           "format-source-muted": "",
-          //"format-muted": "<span foreground='#fab387'> </span>",
-          //"format-icons": [ "<span foreground='#fab387'></span>" ]
           "format-icons": {
-            "headphone": " ",
-            "hands-free": " ",
-            "headset": " ",
-            "phone": " ",
-            "portable": " ",
-            "car": " ",
-            "default": [" ", " ", " "]
-          },
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+          }
         },
         "tray": {
             "icon-size": 14,
             "spacing": 10
-        },
+        }
 } 
 

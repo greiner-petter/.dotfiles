@@ -32,7 +32,7 @@ tooltip {
     background:@background;
     color: @color7;
 }
-#clock:hover, #custom-pacman:hover, #custom-notification:hover,#bluetooth:hover,#network:hover,#battery:hover, #cpu:hover,#memory:hover,#temperature:hover{
+#clock:hover, #custom-pacman:hover, #custom-notification:hover,#bluetooth:hover,#network:hover,#battery:hover, #cpu:hover,#memory:hover,#temperature:hover, #custom-power:hover, #wireplumber:hover{
     transition: all .3s ease;
     color:@color9;
 }
@@ -99,6 +99,16 @@ tooltip {
     transition: all .3s ease;
     color:@color7;
 
+}
+#custom-power {
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color:@color7;
+}
+#wireplumber {
+    padding: 0px 5px;
+    transition: all .3s ease;
+    color:@color7;
 }
 #battery{
     padding: 0px 5px;
