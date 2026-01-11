@@ -1,5 +1,4 @@
 [general]
-import = ["~/.cache/wal/colors-alacritty.toml"]
 live_config_reload = true
 working_directory = "None"
 
@@ -70,6 +69,16 @@ action = "Paste"
 [[keyboard.bindings]]
 key = "Copy"
 action = "Copy"
+
+[[keyboard.bindings]]
+key = "Insert"
+mods = "Super"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "Insert"
+mods = "Shift"
+action = "Paste"
 
 [[keyboard.bindings]]
 key = "L"
