@@ -1,13 +1,13 @@
 {
   "appearance": {
     "rounding": {
-      "scale": 0.9514384349827378
+      "scale": 0.95
     },
     "spacing": {
-      "scale": 0.9712888377445335
+      "scale": 1.0
     },
     "padding": {
-      "scale": 1.0402761795166855
+      "scale": 1.0
     },
     "font": {
       "family": {
@@ -17,18 +17,18 @@
         "clock": "Rubik"
       },
       "size": {
-        "scale": 0.9964326812428076
+        "scale": 1.0
       }
     },
     "anim": {
       "durations": {
-        "scale": 0.7991944764096653
+        "scale": 0.8
       }
     },
     "transparency": {
       "enabled": false,
-      "base": 0.8037974683544301,
-      "layers": 0.40161104718066715
+      "base": 0.8,
+      "layers": 0.4
     }
   },
   "general": {
@@ -377,7 +377,7 @@
         ],
         "dangerous": true,
         "description": "Log out of the current session",
-        "enabled": true,
+        "enabled": false,
         "icon": "exit_to_app",
         "name": "Logout"
       },
@@ -434,8 +434,8 @@
     "vimKeybinds": false,
     "commands": {
       "logout": [
-        "pkill",
-        "hyprland"
+        "loginctl",
+        "lock-session"
       ],
       "shutdown": [
         "systemctl",
