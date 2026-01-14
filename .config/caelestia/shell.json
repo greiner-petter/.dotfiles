@@ -4,10 +4,10 @@
       "scale": 0.95
     },
     "spacing": {
-      "scale": 1.0
+      "scale": 1
     },
     "padding": {
-      "scale": 1.0
+      "scale": 1
     },
     "font": {
       "family": {
@@ -17,7 +17,7 @@
         "clock": "Rubik"
       },
       "size": {
-        "scale": 1.0
+        "scale": 1
       }
     },
     "anim": {
@@ -242,7 +242,15 @@
     "hiddenApps": [
       "thunar-settings",
       "thunar-bulk-rename",
-      "cachyos-hello"
+      "cachyos-hello",
+      "btop",
+      "vim",
+      "footclient",
+      "foot-server",
+      "bssh",
+      "avahi-discover",
+      "bvnc",
+      "valve-vrmonitor"
     ],
     "useFuzzy": {
       "apps": false,
