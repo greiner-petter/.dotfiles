@@ -32,6 +32,7 @@
     }
   },
   "general": {
+    "logo": "",
     "apps": {
       "terminal": [
         "alacritty"
@@ -107,7 +108,7 @@
     }
   },
   "bar": {
-    "persistent": false,
+    "persistent": true,
     "showOnHover": true,
     "dragThreshold": 20,
     "scrollActions": {
@@ -143,7 +144,7 @@
     "status": {
       "showAudio": true,
       "showMicrophone": false,
-      "showKbLayout": true,
+      "showKbLayout": false,
       "showNetwork": true,
       "showBluetooth": true,
       "showBattery": false,
@@ -385,7 +386,7 @@
         ],
         "dangerous": true,
         "description": "Log out of the current session",
-        "enabled": false,
+        "enabled": true,
         "icon": "exit_to_app",
         "name": "Logout"
       },
@@ -443,7 +444,8 @@
     "commands": {
       "logout": [
         "loginctl",
-        "lock-session"
+        "terminate-user",
+        ""
       ],
       "shutdown": [
         "systemctl",
