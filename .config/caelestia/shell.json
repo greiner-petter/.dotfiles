@@ -35,7 +35,7 @@
     "logo": "",
     "apps": {
       "terminal": [
-        "alacritty"
+        "foot"
       ],
       "audio": [
         "pavucontrol"
@@ -138,7 +138,7 @@
     "tray": {
       "background": false,
       "recolour": true,
-      "compact": true,
+      "compact": false,
       "iconSubs": []
     },
     "status": {
@@ -241,13 +241,6 @@
     "dragThreshold": 50,
     "vimKeybinds": false,
     "hiddenApps": [
-      "thunar-settings",
-      "thunar-bulk-rename",
-      "cachyos-hello",
-      "btop",
-      "vim",
-      "footclient",
-      "foot-server",
       "bssh",
       "avahi-discover",
       "bvnc",
