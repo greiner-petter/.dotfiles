@@ -108,7 +108,7 @@
     }
   },
   "bar": {
-    "persistent": true,
+    "persistent": false,
     "showOnHover": true,
     "dragThreshold": 20,
     "scrollActions": {
@@ -206,7 +206,7 @@
   "dashboard": {
     "enabled": true,
     "showOnHover": true,
-    "mediaUpdateInterval": 500,
+    "mediaUpdateInterval": 1000,
     "dragThreshold": 50,
     "sizes": {
       "tabIndicatorHeight": 3,
@@ -247,11 +247,11 @@
       "valve-vrmonitor"
     ],
     "useFuzzy": {
-      "apps": false,
+      "apps": true,
       "actions": false,
       "schemes": false,
       "variants": false,
-      "wallpapers": false
+      "wallpapers": true
     },
     "sizes": {
       "itemWidth": 600,
@@ -513,8 +513,8 @@
     "useTwelveHourClock": true,
     "gpuType": "",
     "visualiserBars": 45,
-    "audioIncrement": 0.1,
-    "maxVolume": 1,
+    "audioIncrement": 0.01,
+    "maxVolume": 0.1,
     "smartScheme": true,
     "defaultPlayer": "Spotify",
     "playerAliases": [
