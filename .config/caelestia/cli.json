@@ -6,13 +6,13 @@
         "postHook": "echo $WALLPAPER_PATH"  
     },
     "theme": {
-        "enableTerm": false,
+        "enableTerm": true,
         "enableHypr": true,
         "enableDiscord": false,
         "enableSpicetify": false,
         "enableFuzzel": true,
         "enableBtop": true,
-        "enableGtk": true,
+        "enableGtk": false,
         "enableQt": false
     },
     "toggles": {
