@@ -1,2 +1,3 @@
 *.theme
-.config/hypr/scheme/current.conf
+**/scheme/current.conf
+*.scm
