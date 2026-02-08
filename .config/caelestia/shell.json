@@ -518,7 +518,7 @@
     ]
   },
   "paths": {
-    "wallpaperDir": "/home/oliver/Pictures/minimalistic-wallpaper-collection/images",
+    "wallpaperDir": "~/Pictures/minimalistic-wallpaper-collection/images",
     "sessionGif": "",
     "mediaGif": "root:/assets/bongocat.gif"
   }
