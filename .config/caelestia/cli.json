@@ -12,7 +12,7 @@
         "enableSpicetify": false,
         "enableFuzzel": true,
         "enableBtop": true,
-        "enableGtk": false,
+        "enableGtk": true,
         "enableQt": false
     },
     "toggles": {
