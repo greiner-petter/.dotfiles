@@ -1,0 +1,8 @@
+# Default stow ignores
+\.git
+\.gitignore
+\.gitmodules
+
+# Custom ignores
+^packages$
+^README\.md$
