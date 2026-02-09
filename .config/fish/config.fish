@@ -1,16 +1,15 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
-alias autoremove='pacman -Rcns $(pacman -Qdtq)'
+# Custom colours
+cat ~/.local/state/caelestia/sequences.txt 2> /dev/null
 
-function y
-    set tmp (mktemp -t "yazi-cwd.XXXXXX")
-    yazi $argv --cwd-file="$tmp"
-    if read -z cwd <"$tmp"; and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
-        builtin cd -- "$cwd"
-    end
-    rm -f -- "$tmp"
-
+# Save package lists to dotfiles
+function pkg-save
+    pacman -Qen | awk '{print $1}' > ~/.dotfiles/packages/pacman.txt
+    pacman -Qem | awk '{print $1}' > ~/.dotfiles/packages/aur.txt
+    echo "Package lists saved to ~/.dotfiles/packages/"
 end
+
 # overwrite greeting
 # potentially disabling fastfetch
 #function fish_greeting
