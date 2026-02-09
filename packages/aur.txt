@@ -1,0 +1,10 @@
+app2unit
+caelestia-cli-git
+caelestia-shell-git
+libcava
+python-materialyoucolor-git
+quickshell-git
+ttf-material-symbols-variable-git
+visual-studio-code-bin
+whitesur-cursor-theme-git
+xdg-terminal-exec-git
