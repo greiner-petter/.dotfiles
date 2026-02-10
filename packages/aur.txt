@@ -2,7 +2,7 @@ app2unit
 caelestia-cli
 caelestia-shell
 libcava
-python-materialyoucolor-git
+python-materialyoucolor
 qt6ct-kde
 quickshell-git
 ttf-material-symbols-variable-git

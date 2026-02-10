@@ -49,7 +49,6 @@ glm
 gpu-screen-recorder
 greetd
 greetd-tuigreet
-grimblast-git
 gst-plugin-pipewire
 gtk4-layer-shell
 gvfs
