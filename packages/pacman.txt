@@ -52,7 +52,6 @@ greetd-tuigreet
 gst-plugin-pipewire
 gtk4-layer-shell
 gvfs
-hypridle
 hyprland
 hyprpicker
 iptables-nft
