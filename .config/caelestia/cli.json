@@ -13,7 +13,7 @@
         "enableFuzzel": true,
         "enableBtop": true,
         "enableGtk": true,
-        "enableQt": false
+        "enableQt": true
     },
     "toggles": {
         "communication": {

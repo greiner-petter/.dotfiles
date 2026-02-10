@@ -1,8 +1,10 @@
 app2unit
 caelestia-cli
 caelestia-shell
+darkly-qt6-git
 libcava
 python-materialyoucolor-git
+qt6ct-kde
 quickshell-git
 ttf-material-symbols-variable-git
 visual-studio-code-bin

@@ -93,7 +93,7 @@ otf-codenewroman-nerd
 pacman-contrib
 pamixer
 papirus-icon-theme
-pcmanfm
+pcmanfm-qt
 perl
 pipewire-alsa
 pipewire-jack
