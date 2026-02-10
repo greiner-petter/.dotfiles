@@ -21,8 +21,6 @@ cachyos-rate-mirrors
 cachyos-settings
 cachyos-snapper-support
 cachyos-v3-mirrorlist
-caja
-caja-open-terminal
 chwd
 claude-code
 cliphist
@@ -95,6 +93,7 @@ otf-codenewroman-nerd
 pacman-contrib
 pamixer
 papirus-icon-theme
+pcmanfm
 perl
 pipewire-alsa
 pipewire-jack
