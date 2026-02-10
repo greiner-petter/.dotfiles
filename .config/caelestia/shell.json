@@ -26,7 +26,7 @@
       }
     },
     "transparency": {
-      "enabled": false,
+      "enabled": true,
       "base": 0.8,
       "layers": 0.4
     }
@@ -90,7 +90,20 @@
   "background": {
     "enabled": true,
     "desktopClock": {
-      "enabled": false
+      "enabled": false,
+      "scale": 1,
+      "position": "bottom-right",
+      "invertColors": false,
+      "background": {
+        "enabled": false,
+        "opacity": 0.7,
+        "blur": true
+      },
+      "shadow": {
+        "enabled": true,
+        "opacity": 0.7,
+        "blur": 0.4
+      }
     },
     "visualiser": {
       "enabled": false,
@@ -101,7 +114,7 @@
     }
   },
   "bar": {
-    "persistent": false,
+    "persistent": true,
     "showOnHover": true,
     "dragThreshold": 20,
     "scrollActions": {
@@ -139,6 +152,7 @@
       "showMicrophone": false,
       "showKbLayout": false,
       "showNetwork": true,
+      "showWifi": false,
       "showBluetooth": true,
       "showBattery": false,
       "showLockStatus": false
@@ -233,12 +247,7 @@
     "enableDangerousActions": true,
     "dragThreshold": 50,
     "vimKeybinds": false,
-    "hiddenApps": [
-      "bssh",
-      "avahi-discover",
-      "bvnc",
-      "valve-vrmonitor"
-    ],
+    "hiddenApps": [],
     "useFuzzy": {
       "apps": true,
       "actions": false,
@@ -488,9 +497,7 @@
     },
     "vpn": {
       "enabled": false,
-      "provider": [
-        "netbird"
-      ]
+      "provider": []
     }
   },
   "sidebar": {
