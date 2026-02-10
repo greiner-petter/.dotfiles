@@ -8,4 +8,3 @@ quickshell-git
 ttf-material-symbols-variable-git
 visual-studio-code-bin
 whitesur-cursor-theme-git
-xdg-terminal-exec-git

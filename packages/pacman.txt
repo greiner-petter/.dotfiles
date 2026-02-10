@@ -1,5 +1,4 @@
 7zip
-accountsservice
 adw-gtk-theme
 alsa-plugins
 alsa-utils
@@ -74,7 +73,6 @@ linux-cachyos-lts-nvidia-open
 linux-cachyos-nvidia-open
 linux-firmware
 lsb-release
-lvm2
 man-db
 mdadm
 mesa-utils
@@ -89,7 +87,6 @@ nvidia-settings
 nvidia-utils
 opencl-nvidia
 openssh
-otf-codenewroman-nerd
 pacman-contrib
 pamixer
 papirus-icon-theme
