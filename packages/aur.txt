@@ -1,6 +1,6 @@
 app2unit
-caelestia-cli-git
-caelestia-shell-git
+caelestia-cli
+caelestia-shell
 libcava
 python-materialyoucolor-git
 quickshell-git
