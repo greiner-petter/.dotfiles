@@ -21,6 +21,8 @@ cachyos-rate-mirrors
 cachyos-settings
 cachyos-snapper-support
 cachyos-v3-mirrorlist
+caja
+caja-open-terminal
 chwd
 claude-code
 cliphist
@@ -36,10 +38,10 @@ dosfstools
 e2fsprogs
 efibootmgr
 egl-wayland
+engrampa
 exfatprogs
 fastfetch
 ffmpegthumbnailer
-file-roller
 firefox
 foot
 fuzzel
@@ -81,8 +83,6 @@ mesa-utils
 micro
 mkinitcpio
 mpv
-nemo
-nemo-fileroller
 networkmanager
 noto-fonts
 noto-fonts-emoji
