@@ -13,5 +13,9 @@ export SDL_VIDEODRIVER='wayland,x11,windows'
 export CLUTTER_BACKEND='wayland'
 export ELECTRON_OZONE_PLATFORM_HINT='auto'
 
+# ############## Cursor #############
+export XCURSOR_SIZE=24
+export XCURSOR_THEME='WhiteSur-cursors'
+
 # ############# Others #############
 export _JAVA_AWT_WM_NONREPARENTING=1
