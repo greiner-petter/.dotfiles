@@ -1,7 +1,6 @@
 7zip
 adw-gtk-theme
 alsa-plugins
-alsa-utils
 amd-ucode
 aubio
 base
@@ -44,8 +43,6 @@ firefox
 foot
 fuzzel
 git
-glfw
-glm
 gpu-screen-recorder
 greetd
 greetd-tuigreet
@@ -131,7 +128,6 @@ upower
 usbutils
 uwsm
 vim
-vulkan-headers
 vulkan-icd-loader
 wget
 which
