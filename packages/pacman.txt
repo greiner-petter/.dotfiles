@@ -11,6 +11,7 @@ bluez-hid2hci
 bluez-libs
 bluez-utils
 btop
+btrfs-assistant
 btrfs-progs
 cachyos-fish-config
 cachyos-hooks
@@ -42,7 +43,6 @@ ffmpegthumbnailer
 firefox
 foot
 fuzzel
-gamemode
 git
 glfw
 glm
@@ -65,11 +65,11 @@ limine
 limine-mkinitcpio-hook
 limine-snapper-sync
 linux-cachyos
+linux-cachyos-bore
+linux-cachyos-bore-headers
 linux-cachyos-headers
 linux-cachyos-lts
 linux-cachyos-lts-headers
-linux-cachyos-lts-nvidia-open
-linux-cachyos-nvidia-open
 linux-firmware
 lsb-release
 man-db
@@ -82,6 +82,7 @@ networkmanager
 noto-fonts
 noto-fonts-emoji
 ntfs-3g
+nvidia-open-dkms
 nvidia-settings
 nvidia-utils
 opencl-nvidia
@@ -100,9 +101,11 @@ polkit-gnome
 power-profiles-daemon
 prismlauncher
 protonplus
+protontricks
 python
 python-packaging
 qt6-wayland
+quickshell-git
 resvg
 ripgrep
 rsync
@@ -130,6 +133,7 @@ uwsm
 vim
 vulkan-headers
 vulkan-icd-loader
+wget
 which
 wireless-regdb
 wireplumber
@@ -140,4 +144,5 @@ xdg-desktop-portal-hyprland
 xdg-user-dirs
 xorg-xrandr
 xorg-xwayland
+xpadneo-dkms
 yay
