@@ -258,6 +258,7 @@
     "enableDangerousActions": true,
     "dragThreshold": 50,
     "vimKeybinds": false,
+    "favouriteApps": [],
     "hiddenApps": [],
     "useFuzzy": {
       "apps": true,
