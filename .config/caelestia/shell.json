@@ -46,7 +46,7 @@
         "mpv"
       ],
       "explorer": [
-        "pcmanfm-qt"
+        "pcmanfm"
       ]
     },
     "idle": {
@@ -56,11 +56,6 @@
         {
           "idleAction": "lock",
           "timeout": 300
-        },
-        {
-          "idleAction": "dpms off",
-          "returnAction": "dpms on",
-          "timeout": 420
         }
       ]
     },
@@ -448,6 +443,12 @@
     "enabled": true,
     "dragThreshold": 30,
     "vimKeybinds": false,
+    "icons": {
+      "logout": "logout",
+      "shutdown": "power_settings_new",
+      "hibernate": "downloading",
+      "reboot": "cached"
+    },
     "commands": {
       "logout": [
         "loginctl",
@@ -522,6 +523,7 @@
   "services": {
     "weatherLocation": "",
     "useFahrenheit": false,
+    "useFahrenheitPerformance": true,
     "useTwelveHourClock": true,
     "gpuType": "",
     "visualiserBars": 45,
