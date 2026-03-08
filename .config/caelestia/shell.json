@@ -523,7 +523,7 @@
   "services": {
     "weatherLocation": "",
     "useFahrenheit": false,
-    "useFahrenheitPerformance": true,
+    "useFahrenheitPerformance": false,
     "useTwelveHourClock": true,
     "gpuType": "",
     "visualiserBars": 45,
