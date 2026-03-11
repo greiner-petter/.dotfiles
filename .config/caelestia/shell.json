@@ -56,6 +56,11 @@
         {
           "idleAction": "lock",
           "timeout": 300
+        },
+        {
+          "idleAction": "dpms off",
+          "returnAction": "dpms on",
+          "timeout": 360
         }
       ]
     },
@@ -212,6 +217,8 @@
   "dashboard": {
     "enabled": true,
     "showOnHover": true,
+    "mediaUpdateInterval": 500,
+    "resourceUpdateInterval": 1000,
     "dragThreshold": 50,
     "performance": {
       "showBattery": true,
@@ -257,7 +264,7 @@
     "hiddenApps": [],
     "useFuzzy": {
       "apps": true,
-      "actions": false,
+      "actions": true,
       "schemes": false,
       "variants": false,
       "wallpapers": true
