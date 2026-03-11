@@ -42,6 +42,7 @@ firefox
 foot
 fuzzel
 git
+gnome-keyring
 gpu-screen-recorder
 greetd
 greetd-tuigreet
@@ -65,6 +66,7 @@ linux-cachyos-lts
 linux-cachyos-lts-headers
 linux-cachyos-lts-nvidia-open
 linux-firmware
+loupe
 lsb-release
 man-db
 mdadm
@@ -91,7 +93,6 @@ pkgfile
 podman
 polkit-gnome
 power-profiles-daemon
-prismlauncher
 protonplus
 protontricks
 python
@@ -114,7 +115,6 @@ ttf-bitstream-vera
 ttf-dejavu
 ttf-jetbrains-mono-nerd
 ttf-liberation
-ttf-meslo-nerd
 ufw
 unrar
 unzip
@@ -130,7 +130,7 @@ wpa_supplicant
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
+xone-dkms
 xorg-xrandr
 xorg-xwayland
-xpadneo-dkms
 yay

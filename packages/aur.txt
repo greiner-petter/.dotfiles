@@ -3,6 +3,8 @@ caelestia-cli
 caelestia-shell
 hid-fanatecff-dkms
 libcava
+pandora-launcher
+papirus-folders
 python-materialyoucolor
 qt6ct-kde
 ttf-material-symbols-variable-git
