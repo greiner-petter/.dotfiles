@@ -58,8 +58,7 @@
           "timeout": 300
         },
         {
-          "idleAction": "dpms off",
-          "returnAction": "dpms on",
+          "idleAction": ["systemctl", "suspend"],
           "timeout": 360
         }
       ]
