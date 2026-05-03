@@ -1,5 +1,4 @@
 7zip
-adw-gtk-theme
 alsa-plugins
 amd-ucode
 aubio
@@ -50,7 +49,7 @@ gtk4-layer-shell
 gvfs
 hyprland
 hyprpicker
-iptables-nft
+iptables
 jq
 less
 lib32-nvidia-utils
@@ -68,16 +67,13 @@ linux-cachyos-lts-nvidia-open
 linux-firmware
 loupe
 lsb-release
-man-db
 mdadm
-mesa-utils
 micro
 mkinitcpio
 mpv
 networkmanager
 noto-fonts
 noto-fonts-emoji
-ntfs-3g
 nvidia-settings
 nvidia-utils
 openssh
@@ -98,7 +94,6 @@ protontricks
 python
 python-packaging
 qt6-wayland
-quickshell-git
 resvg
 ripgrep
 rtkit
@@ -111,10 +106,7 @@ swappy
 terminus-font
 texinfo
 trash-cli
-ttf-bitstream-vera
-ttf-dejavu
 ttf-jetbrains-mono-nerd
-ttf-liberation
 ufw
 unrar
 unzip
