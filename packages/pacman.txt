@@ -5,7 +5,6 @@ aubio
 base
 base-devel
 bluez
-bluez-hid2hci
 bluez-libs
 bluez-utils
 btop
@@ -19,6 +18,7 @@ cachyos-rate-mirrors
 cachyos-settings
 cachyos-snapper-support
 cachyos-v3-mirrorlist
+celluloid
 chwd
 claude-code
 cliphist
@@ -29,12 +29,9 @@ device-mapper
 diffutils
 discord
 distrobox
-dosfstools
 e2fsprogs
 efibootmgr
 egl-wayland
-engrampa
-exfatprogs
 fastfetch
 ffmpegthumbnailer
 firefox
@@ -61,16 +58,12 @@ limine-snapper-sync
 linux-cachyos-bore
 linux-cachyos-bore-headers
 linux-cachyos-bore-nvidia-open
-linux-cachyos-lts
-linux-cachyos-lts-headers
-linux-cachyos-lts-nvidia-open
 linux-firmware
 loupe
 lsb-release
 mdadm
 micro
 mkinitcpio
-mpv
 networkmanager
 noto-fonts
 noto-fonts-emoji
@@ -78,7 +71,6 @@ nvidia-settings
 nvidia-utils
 openssh
 pacman-contrib
-pamixer
 papirus-icon-theme
 pcmanfm-qt
 perl
@@ -108,7 +100,6 @@ texinfo
 trash-cli
 ttf-jetbrains-mono-nerd
 ufw
-unrar
 unzip
 upower
 usbutils
@@ -119,6 +110,7 @@ wireless-regdb
 wireplumber
 wl-clipboard
 wpa_supplicant
+xarchiver
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
