@@ -1,6 +1,7 @@
 app2unit
 caelestia-cli
 caelestia-shell
+claude-desktop-bin
 libcava
 maccel-dkms
 pandora-launcher
