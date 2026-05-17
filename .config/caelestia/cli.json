@@ -43,7 +43,8 @@
                     }
                 ],
                 "command": [
-                    "foot -a",
+                    "foot",
+                    "-a",
                     "btop",
                     "-T",
                     "btop",
