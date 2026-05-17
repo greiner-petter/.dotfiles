@@ -3,7 +3,7 @@
         "extraArgs": []
     },
     "wallpaper": {
-        "postHook": "echo $WALLPAPER_PATH"  
+        "postHook": "echo $WALLPAPER_PATH"
     },
     "theme": {
         "enableTerm": true,
@@ -24,11 +24,33 @@
                 "move": true
             }
         },
+        "claude": {
+            "claude": {
+                "enable": true,
+                "match": [{ "class": "claude" }],
+                "command": ["claude-desktop"],
+                "move": true
+            }
+        },
         "sysmon": {
             "btop": {
                 "enable": true,
-                "match": [{ "class": "btop", "title": "btop", "workspace": { "name": "special:sysmon" } }],
-                "command": ["foot", "-a", "btop", "-T", "btop", "fish", "-C", "exec btop"]
+                "match": [
+                    {
+                        "class": "btop",
+                        "title": "btop",
+                        "workspace": { "name": "special:sysmon" }
+                    }
+                ],
+                "command": [
+                    "foot -a",
+                    "btop",
+                    "-T",
+                    "btop",
+                    "fish",
+                    "-C",
+                    "exec btop"
+                ]
             }
         }
     }
