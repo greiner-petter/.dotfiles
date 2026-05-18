@@ -7,7 +7,7 @@ maccel-dkms
 pandora-launcher
 papirus-folders
 python-materialyoucolor
-qt6ct-kde
+qtengine
 ttf-material-symbols-variable-git
 visual-studio-code-bin
 whitesur-cursor-theme-git
