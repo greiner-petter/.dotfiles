@@ -27,6 +27,7 @@ dart-sass
 ddcutil
 device-mapper
 diffutils
+direnv
 discord
 distrobox
 e2fsprogs
@@ -55,9 +56,12 @@ libva-nvidia-driver
 limine
 limine-mkinitcpio-hook
 limine-snapper-sync
-linux-cachyos-bore
-linux-cachyos-bore-headers
-linux-cachyos-bore-nvidia-open
+linux-cachyos-bore-lto
+linux-cachyos-bore-lto-headers
+linux-cachyos-bore-lto-nvidia-open
+linux-cachyos-lts
+linux-cachyos-lts-headers
+linux-cachyos-lts-nvidia-open
 linux-firmware
 loupe
 lsb-release
@@ -67,7 +71,6 @@ mkinitcpio
 networkmanager
 noto-fonts
 noto-fonts-emoji
-nvidia-settings
 nvidia-utils
 openssh
 pacman-contrib
@@ -91,6 +94,7 @@ ripgrep
 rtkit
 slurp
 snapper
+starship
 steam
 stow
 sudo
@@ -118,3 +122,5 @@ xone-dkms
 xorg-xrandr
 xorg-xwayland
 yay
+zed
+zoxide
