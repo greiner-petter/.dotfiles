@@ -110,7 +110,7 @@
         ],
         "excludedScreens": [
         ],
-        "persistent": true,
+        "persistent": false,
         "popouts": {
             "activeWindow": true,
             "statusIcons": true,
@@ -128,7 +128,7 @@
             "showBluetooth": true,
             "showKbLayout": false,
             "showLockStatus": false,
-            "showMicrophone": false,
+            "showMicrophone": true,
             "showNetwork": true,
             "showWifi": false
         },
