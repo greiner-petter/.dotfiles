@@ -1,5 +1,6 @@
 app2unit
 caelestia-cli
+caelestia-meta
 caelestia-shell
 claude-desktop-bin
 libcava
@@ -7,7 +8,7 @@ maccel-dkms
 pandora-launcher
 papirus-folders
 python-materialyoucolor
-qtengine
+qtengine-git
 ttf-material-symbols-variable-git
 visual-studio-code-bin
 whitesur-cursor-theme-git
