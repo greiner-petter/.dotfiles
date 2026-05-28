@@ -1,5 +1,5 @@
-[submodule "Pictures/minimalistic-wallpaper-collection"]
-	path = Pictures/minimalistic-wallpaper-collection
+[submodule "minimalistic-wallpaper-collection"]
+	path = minimalistic-wallpaper-collection
 	url = git@github.com:DenverCoder1/minimalistic-wallpaper-collection.git
 [submodule "caelestia"]
 	path = caelestia

@@ -442,7 +442,7 @@
         "mediaGif": "root:/assets/bongocat.gif",
         "noNotifsPic": "root:/assets/dino.png",
         "sessionGif": "",
-        "wallpaperDir": "~/Pictures/minimalistic-wallpaper-collection/images"
+        "wallpaperDir": "~/Pictures/Wallpapers"
     },
     "services": {
         "audioIncrement": 0.01,
