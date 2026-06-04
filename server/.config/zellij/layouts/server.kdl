@@ -1,0 +1,38 @@
+layout {
+    pane size=1 borderless=true {
+        plugin location="file:/home/oliver/.config/zellij/plugins/zjstatus.wasm" {
+            format_left   "{tabs}"
+            format_center "{command_wifi}  {command_battery}  {datetime}"
+            format_right  "#[fg=#a6e3a1] {swap_layout} "
+            format_space  "#[fg=#313244]─"
+
+            tab_normal          "#[fg=#6c7086] {index}: {name} "
+            tab_active          "#[fg=#cdd6f4,bold] {index}: {name} "
+            tab_fullscreen_indicator " "
+            tab_sync_indicator       " "
+
+            swap_layout_name "#[fg=#a6e3a1]{name}"
+
+            command_wifi_command    "/usr/bin/bash /home/oliver/.config/zellij/scripts/wifi.sh"
+            command_wifi_format     "{stdout}"
+            command_wifi_rendermode "dynamic"
+            command_wifi_interval   "30"
+
+            command_battery_command    "/usr/bin/bash /home/oliver/.config/zellij/scripts/battery.sh"
+            command_battery_format     "{stdout}"
+            command_battery_rendermode "dynamic"
+            command_battery_interval   "30"
+
+            datetime          "{format}"
+            datetime_format   "%H:%M"
+            datetime_interval "60"
+            datetime_timezone "Europe/Berlin"
+        }
+    }
+    pane split_direction="vertical" {
+        pane
+    }
+    pane size=1 borderless=true {
+        plugin location="zellij:status-bar"
+    }
+}
