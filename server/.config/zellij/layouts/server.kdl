@@ -16,16 +16,16 @@ layout {
             command_wifi_command    "/usr/bin/bash /home/oliver/.config/zellij/scripts/wifi.sh"
             command_wifi_format     "{stdout}"
             command_wifi_rendermode "dynamic"
-            command_wifi_interval   "30"
+            command_wifi_interval   "1"
 
             command_battery_command    "/usr/bin/bash /home/oliver/.config/zellij/scripts/battery.sh"
             command_battery_format     "{stdout}"
             command_battery_rendermode "dynamic"
-            command_battery_interval   "30"
+            command_battery_interval   "1"
 
             datetime          "{format}"
             datetime_format   "%H:%M"
-            datetime_interval "60"
+            datetime_interval "1"
             datetime_timezone "Europe/Berlin"
         }
     }

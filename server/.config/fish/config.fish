@@ -6,8 +6,8 @@ end
 if status is-interactive
     if string match -q '/dev/tty*' (tty); and not set -q DISPLAY; and not set -q WAYLAND_DISPLAY
         exec cage -- foot
-    else if not set -q ZELLIJ
-        exec zellij
+    else if not set -q ZELLIJ; and not set -q HERDR_ENV
+        exec herdr
     end
 end
 
