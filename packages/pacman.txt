@@ -22,14 +22,17 @@ distrobox
 fastfetch
 ffmpegthumbnailer
 firefox
+flite
 foot
 git
 gnome-keyring
+gradle
 greetd
 greetd-tuigreet
 gtk4-layer-shell
 gvfs
 hyprland
+jdk25-openjdk
 less
 libva-nvidia-driver
 limine
@@ -48,6 +51,7 @@ mkinitcpio
 networkmanager
 noto-fonts-emoji
 nvidia-utils
+openai-codex
 openssh
 pacman-contrib
 pcmanfm-qt
