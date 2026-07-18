@@ -28,7 +28,8 @@ hl.config({
 
 -- Window rules
 hl.window_rule({ match = { class = "xarchiver" }, tag = "+float" })
-hl.window_rule({ match = { class = "claude-desktop" }, workspace = "special:claude" })
+hl.window_rule({ match = { class = "com.anthropic.Claude" }, workspace = "special:claude" })
+hl.window_rule({ match = { class = "codex-desktop" }, workspace = "special:claude" })
 
 -- Shell keybinds
 hl.unbind("SUPER + SUPER_L")

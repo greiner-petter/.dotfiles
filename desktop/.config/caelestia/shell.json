@@ -527,7 +527,7 @@
             "chargingChanged": true,
             "configLoaded": true,
             "dndChanged": true,
-            "fullscreen": "off",
+            "fullscreen": "all",
             "gameModeChanged": true,
             "kbLayoutChanged": true,
             "nowPlaying": false,
