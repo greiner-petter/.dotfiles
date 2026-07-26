@@ -30,12 +30,6 @@
                 "match": [{ "class": "com.anthropic.Claude" }],
                 "command": ["claude-desktop"],
                 "move": true
-            },
-            "codex": {
-                "enable": true,
-                "match": [{ "class": "codex-desktop" }],
-                "command": ["codex-desktop"],
-                "move": true
             }
         },
         "sysmon": {
