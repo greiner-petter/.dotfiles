@@ -179,7 +179,7 @@
     "general": {
         "apps": {
             "audio": [
-                "pavucontrol"
+                "pwvucontrol"
             ],
             "explorer": [
                 "pcmanfm-qt"
@@ -434,12 +434,12 @@
         "wallpaperDir": "~/Pictures/Wallpapers"
     },
     "services": {
-        "audioIncrement": 0.01,
-        "brightnessIncrement": 0.1,
+        "audioIncrement": 0.05,
+        "brightnessIncrement": 0.05,
         "defaultPlayer": "Spotify",
         "gpuType": "",
         "lyricsBackend": "Auto",
-        "maxVolume": 0.1,
+        "maxVolume": 1,
         "playerAliases": [
             {
                 "from": "com.github.th_ch.youtube_music",
