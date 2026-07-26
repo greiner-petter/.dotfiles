@@ -15,7 +15,7 @@ return {
     windowBorderSize       = 3,
 
     -- Misc
-    volumeStep             = 1,
+    volumeStep             = 5,
     cursorTheme            = "WhiteSur-cursors",
 
     ------------------
