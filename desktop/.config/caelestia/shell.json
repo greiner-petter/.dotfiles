@@ -2,7 +2,7 @@
     "appearance": {
         "anim": {
             "durations": {
-                "scale": 0.8
+                "scale": 0.75
             }
         },
         "padding": {
@@ -133,7 +133,7 @@
         "workspaces": {
             "activeIndicator": true,
             "activeLabel": "󰮯",
-            "activeTrail": false,
+            "activeTrail": true,
             "capitalisation": "preserve",
             "label": "  ",
             "maxWindowIcons": 0,
@@ -390,7 +390,7 @@
         ],
         "hiddenApps": [
         ],
-        "maxShown": 7,
+        "maxShown": 5,
         "maxWallpapers": 9,
         "showOnHover": false,
         "specialPrefix": "@",
@@ -436,7 +436,7 @@
     "services": {
         "audioIncrement": 0.05,
         "brightnessIncrement": 0.05,
-        "defaultPlayer": "Spotify",
+        "defaultPlayer": "Mozilla firefox",
         "gpuType": "",
         "lyricsBackend": "Auto",
         "maxVolume": 1,
