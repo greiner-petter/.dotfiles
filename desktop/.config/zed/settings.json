@@ -44,7 +44,6 @@
   "git_panel": {
     "dock": "left",
     "tree_view": true,
-    "sort_by_path": true,
   },
   "git": {
     "inline_blame": {
