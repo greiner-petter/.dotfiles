@@ -41,7 +41,6 @@ hl.bind("SUPER + ALT + S", hl.dsp.global("caelestia:screenshotFreeze"))
 hl.unbind("SUPER + SHIFT + S")
 hl.bind("SUPER + SHIFT + S", hl.dsp.window.move({ workspace = "special:special" }))
 
-hl.unbind("CTRL + ALT + V")
 hl.bind("SUPER + Return", hl.dsp.exec_cmd(vars.terminal))
 
 hl.bind("SUPER + C", hl.dsp.exec_cmd("caelestia toggle claude"))
