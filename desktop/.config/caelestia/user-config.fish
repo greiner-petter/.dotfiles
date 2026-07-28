@@ -1,6 +1,6 @@
 # Override fish greeting
 function fish_greeting
-    # fastfetch --key-padding-left 5
+    fastfetch
 end
 
 # Set settings for https://github.com/franciscolourenco/done
