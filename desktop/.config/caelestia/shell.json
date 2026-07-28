@@ -185,7 +185,7 @@
                 "pcmanfm-qt"
             ],
             "playback": [
-                "celluloid"
+                "mpv"
             ],
             "terminal": [
                 "foot"
