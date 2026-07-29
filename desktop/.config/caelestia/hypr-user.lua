@@ -1,5 +1,3 @@
-local vars = require("variables")
-
 -- Monitor config
 hl.monitor({
     output   = "",
@@ -27,23 +25,11 @@ hl.config({
 })
 
 -- Window rules
-hl.window_rule({ match = { class = "xarchiver" }, tag = "+float" })
-hl.window_rule({ match = { class = "com.anthropic.Claude" }, workspace = "special:claude" })
-hl.window_rule({ match = { class = "mpv" }, tag = "+float", size  = "(monitor_w*0.75) (monitor_h*0.75)",})
+hl.window_rule({ match = { class = "xarchiver|mpv" }, tag = "+float" })
 
--- Shell keybinds
-hl.unbind("SUPER + SUPER_L")
-hl.bind("SUPER + Space", hl.dsp.global("caelestia:launcher"))
-
-hl.unbind("SUPER + ALT + S")
-hl.bind("SUPER + ALT + S", hl.dsp.global("caelestia:screenshotFreeze"))
-
-hl.unbind("SUPER + SHIFT + S")
-hl.bind("SUPER + SHIFT + S", hl.dsp.window.move({ workspace = "special:special" }))
-
-hl.bind("SUPER + Return", hl.dsp.exec_cmd(vars.terminal))
-
+-- Custom workspace
 hl.bind("SUPER + C", hl.dsp.exec_cmd("caelestia toggle claude"))
+hl.window_rule({ match = { class = "com.anthropic.Claude" }, workspace = "special:claude" })
 
 -- Environment variables
 hl.env("LIBVA_DRIVER_NAME", "nvidia")
