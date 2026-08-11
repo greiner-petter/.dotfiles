@@ -17,7 +17,7 @@ caelestia-cli
 caelestia-firefox-theme
 caelestia-shell
 claude-code
-claude-desktop-bin
+claude-desktop-extra
 cliphist
 curl
 direnv
