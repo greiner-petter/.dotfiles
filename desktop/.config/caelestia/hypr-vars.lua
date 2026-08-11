@@ -6,7 +6,6 @@ return {
     -- Apps
     editor                  = "zeditor",
     fileExplorer            = "pcmanfm-qt",
-    audioSettings           = "pwvucontrol",
 
     -- Gaps
     workspaceGaps           = 10,

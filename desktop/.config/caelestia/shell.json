@@ -121,6 +121,20 @@
             "showNetwork": true,
             "showWifi": false
         },
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "audio"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            }
+        ],
         "tray": {
             "background": false,
             "compact": false,
@@ -477,9 +491,9 @@
         "enabled": true,
         "icons": {
             "hibernate": "sleep",
-            "logout": "logout",
-            "reboot": "cached",
-            "shutdown": "power_settings_new"
+            "logout": "door_open",
+            "reboot": "replay",
+            "shutdown": "mode_off_on"
         },
         "vimKeybinds": false
     },
