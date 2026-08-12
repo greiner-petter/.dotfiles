@@ -27,7 +27,7 @@ eza
 fastfetch
 ffmpegthumbnailer
 firefox
-fish-done
+fisher
 foot
 git
 gnome-keyring
@@ -36,7 +36,6 @@ greetd-tuigreet
 gvfs
 hyprland
 hyprpicker
-jdk25-openjdk
 lazygit
 less
 libva-nvidia-driver
@@ -54,7 +53,6 @@ networkmanager
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
-openai-codex
 openssh
 pandora-launcher-bin
 papirus-folders
@@ -69,7 +67,7 @@ podman
 polkit-gnome
 protonplus
 pwvucontrol
-qtengine-git
+qtengine
 ripgrep
 starship
 steam
