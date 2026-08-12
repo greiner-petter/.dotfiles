@@ -111,16 +111,6 @@
             "workspaces": true
         },
         "showOnHover": true,
-        "status": {
-            "showAudio": true,
-            "showBattery": false,
-            "showBluetooth": true,
-            "showKbLayout": false,
-            "showLockStatus": false,
-            "showMicrophone": false,
-            "showNetwork": true,
-            "showWifi": false
-        },
         "statusIcons": [
             {
                 "enabled": true,
