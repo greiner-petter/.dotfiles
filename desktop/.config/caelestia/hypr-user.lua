@@ -31,7 +31,13 @@ hl.window_rule({ match = { class = "xarchiver|mpv" }, tag = "+float" })
 hl.bind("SUPER + C", hl.dsp.exec_cmd("caelestia toggle claude"))
 hl.window_rule({ match = { class = "com.anthropic.Claude" }, workspace = "special:claude" })
 
+-- Autostart
+hl.on("hyprland.start", function()
+    hl.exec_cmd("librepods --start-minimized")
+end)
+
 -- Environment variables
 hl.env("LIBVA_DRIVER_NAME", "nvidia")
 hl.env("NVD_BACKEND", "direct")
 hl.env("MOZ_DISABLE_RDD_SANDBOX", 1)
+hl.env("DXVK_NVAPI_DRS_SETTINGS", "ngx_dlss_sr_override=on,ngx_dlss_sr_override_render_preset_selection=render_preset_m")
