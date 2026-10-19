@@ -7,7 +7,6 @@ base-devel
 bat
 bluetui
 bluez
-bluez-utils
 btop
 btrfs-assistant
 cachyos-keyring
@@ -54,7 +53,6 @@ micro
 mpv
 networkmanager
 noto-fonts
-noto-fonts-cjk
 noto-fonts-emoji
 openssh
 pandora-launcher-bin
@@ -68,12 +66,11 @@ pipewire-jack
 pipewire-pulse
 podman
 polkit-gnome
-protonplus
+proton-cachyos-slr
 pwvucontrol
-qtengine
+qtengine-qt6
 quickshell-git
 ripgrep
-rust
 starship
 steam
 stow
@@ -88,7 +85,6 @@ xarchiver
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
-xone-dkms
 yay
 ydotool
 zed
