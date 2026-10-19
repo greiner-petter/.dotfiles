@@ -20,7 +20,7 @@ hl.config({
         float_switch_override_focus = 2,
     },
     misc = {
-        vrr = 3
+        vrr = 2
     }
 })
 
