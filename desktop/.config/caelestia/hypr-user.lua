@@ -11,23 +11,21 @@ hl.config({
     input = {
         kb_layout = "eu",
         kb_options = "caps:escape,altwin:swap_lalt_lwin",
-
         force_no_accel = true,
-
         scroll_method = "on_button_down",
         scroll_button = 274,
-
         float_switch_override_focus = 2,
     },
     misc = {
-        vrr = 2
+        vrr = 2,
+        disable_xdg_env_checks = true,
     }
 })
 
 -- Window rules
 hl.window_rule({ match = { class = "xarchiver|mpv" }, tag = "+float" })
 
--- Custom workspace
+-- Claude workspace
 hl.bind("SUPER + C", hl.dsp.exec_cmd("caelestia toggle claude"))
 hl.window_rule({ match = { class = "com.anthropic.Claude" }, workspace = "special:claude" })
 
@@ -37,7 +35,6 @@ hl.on("hyprland.start", function()
 end)
 
 -- Environment variables
-hl.env("LIBVA_DRIVER_NAME", "nvidia")
-hl.env("NVD_BACKEND", "direct")
 hl.env("MOZ_DISABLE_RDD_SANDBOX", 1)
 hl.env("DXVK_NVAPI_DRS_SETTINGS", "ngx_dlss_sr_override=on,ngx_dlss_sr_override_render_preset_selection=render_preset_m")
+hl.env("XDG_CURRENT_DESKTOP", "Hyprland:GNOME")
