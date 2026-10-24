@@ -23,12 +23,7 @@ return {
     ------------------
 
     -- Workspaces
-    kbMoveWinToWs           = "SUPER + SHIFT",
-    kbMoveWinToWsGroup      = "CTRL + SUPER + SHIFT",
     kbMoveWinToWsSpecial    = "SUPER + SHIFT + S",
-
-    -- Window Action
-    kbToggleWindowFloating  = "SUPER + SHIFT + F",
 
     -- Apps
     kbTerminal              = { "SUPER + T", "SUPER + Return" },
