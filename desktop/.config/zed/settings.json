@@ -17,7 +17,10 @@
   "icon_theme": "Base Charmed Icons",
   "buffer_font_size": 14.0,
   "agent": {
-    "sidebar_side": "right",
+    "threads_sidebar": {
+      "position": "right"
+    },
+    "enable_feedback": false,
     "dock": "right",
     "favorite_models": [],
     "model_parameters": [],
