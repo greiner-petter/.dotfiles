@@ -7,6 +7,7 @@ base-devel
 bat
 bluetui
 bluez
+bluez-utils
 btop
 btrfs-assistant
 cachyos-keyring
@@ -21,6 +22,7 @@ claude-code
 claude-desktop
 cliphist
 curl
+darkly-qt6
 direnv
 discord
 distrobox
@@ -53,6 +55,7 @@ micro
 mpv
 networkmanager
 noto-fonts
+noto-fonts-cjk
 noto-fonts-emoji
 openssh
 pandora-launcher-bin
