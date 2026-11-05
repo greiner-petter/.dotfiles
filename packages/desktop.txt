@@ -21,6 +21,7 @@ caelestia-shell
 claude-code
 claude-desktop
 cliphist
+cmake
 curl
 darkly-qt6
 direnv
@@ -39,6 +40,7 @@ greetd-tuigreet
 gvfs
 hyprland
 hyprpicker
+jdk25-openjdk
 lazygit
 less
 librepods-leafaar
@@ -54,11 +56,12 @@ maccel-dkms
 micro
 mpv
 networkmanager
+ninja
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 openssh
-pandora-launcher-bin
+pandora-launcher
 papirus-folders
 papirus-icon-theme
 pcmanfm-qt
@@ -74,6 +77,7 @@ pwvucontrol
 qtengine-qt6
 quickshell-git
 ripgrep
+rust
 starship
 steam
 stow
