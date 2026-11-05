@@ -99,7 +99,7 @@
         ],
         "excludedScreens": [
         ],
-        "persistent": false,
+        "persistent": true,
         "popouts": {
             "activeWindow": true,
             "statusIcons": true,
@@ -110,7 +110,7 @@
             "volume": false,
             "workspaces": true
         },
-        "showOnHover": true,
+        "showOnHover": false,
         "statusIcons": [
             {
                 "enabled": true,
@@ -484,6 +484,7 @@
     "services": {
         "audioIncrement": 0.05,
         "brightnessIncrement": 0.05,
+        "clockFormat": "Auto",
         "defaultPlayer": "Mozilla firefox",
         "gpuType": "Auto",
         "lyricsBackend": "Auto",
@@ -496,7 +497,6 @@
         ],
         "sensorUnits": "Celsius",
         "smartScheme": true,
-        "clockFormat": "Auto",
         "visualiserBars": 45,
         "weatherLocation": "",
         "weatherUnits": "Celsius"
