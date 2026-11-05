@@ -21,5 +21,7 @@
   },
   "effortLevel": "high",
   "tui": "fullscreen",
-  "autoCompactEnabled": false
+  "autoCompactEnabled": false,
+  "agentPushNotifEnabled": false,
+  "inputNeededNotifEnabled": false
 }
