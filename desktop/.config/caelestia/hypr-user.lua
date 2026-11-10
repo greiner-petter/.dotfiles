@@ -22,6 +22,13 @@ hl.config({
     }
 })
 
+-- Middle mouse scrolling: on by default, regular middle mouse while Super is held.
+hl.on("input.keyboard.key", function(keycode, _, pressed)
+    if keycode == 64 or keycode == 134 then
+        hl.config({ input = { scroll_method = pressed == 1 and "no_scroll" or "on_button_down" } })
+    end
+end)
+
 -- Window rules
 hl.window_rule({ match = { class = "xarchiver|mpv" }, tag = "+float" })
 
