@@ -8,18 +8,8 @@
     "defaultMode": "auto"
   },
   "model": "opus",
-  "enabledPlugins": {
-    "codex@openai-codex": true
-  },
-  "extraKnownMarketplaces": {
-    "openai-codex": {
-      "source": {
-        "source": "github",
-        "repo": "openai/codex-plugin-cc"
-      }
-    }
-  },
   "effortLevel": "high",
   "tui": "fullscreen",
-  "autoCompactEnabled": false
+  "autoCompactEnabled": false,
+  "hooks": {"SessionStart":[{"matcher":"^(startup|resume|clear|compact|fork)$","hooks":[{"type":"command","command":"bash '/home/oliver/.claude/hooks/herdr-agent-state.sh' session","timeout":10}]}]}
 }

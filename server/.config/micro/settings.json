@@ -1,3 +1,7 @@
 {
-    "colorscheme": "simple"
+    "backup": false,
+    "colorscheme": "simple",
+    "savecursor": false,
+    "savehistory": false,
+    "saveundo": false
 }

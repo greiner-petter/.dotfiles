@@ -1,0 +1,17 @@
+onboarding = false
+
+[ui]
+tab_bar_right = [
+	{ type = "command", command = "~/.config/herdr/status.sh", interval_seconds = 30, timeout_seconds = 2 },
+	{ type = "hostname" },
+	{ type = "datetime", format = "%H:%M" },
+]
+tab_bar_right_separator = " · "
+
+status_indicators = "symbols"
+[theme]
+name = "terminal"
+auto_switch = false
+
+[ui.toast]
+delivery = "herdr"
